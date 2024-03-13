@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1588164290 source:c:\users\troya\desktop\proyecto\esizon1.0\carga_actualizarfich.c
+	"admin.h"
+	"prod+categ.h"
+	"desc+dclient.h"
+
+1588163501 c:\users\troya\desktop\proyecto\esizon1.0\admin.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"clientes.h"
+	"prov.h"
+
+1588163501 c:\users\troya\desktop\proyecto\esizon1.0\clientes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1588163501 c:\users\troya\desktop\proyecto\esizon1.0\prov.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1588164290 c:\users\troya\desktop\proyecto\esizon1.0\prod+categ.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1588163501 source:c:\users\troya\desktop\proyecto\esizon1.0\categorias_modulos.c
+	"prod+categ.h"
+
+1588245655 source:c:\users\troya\desktop\proyecto\esizon1.0\finalcliente.c
+	"admin.h"
+
+1588245655 source:c:\users\troya\desktop\proyecto\esizon1.0\finalprov.c
+	"admin.h"
+
+1588163501 source:c:\users\troya\desktop\proyecto\esizon1.0\main.c
+	"admin.h"
+
+1588245655 source:c:\users\troya\desktop\proyecto\esizon1.0\finalfinaladmin.c
+	"admin.h"
+
+1588164736 source:c:\users\troya\desktop\proyecto\esizon1.0\productos_modulos.c
+	"prod+categ.h"
+
+1588245655 source:c:\users\troya\desktop\proyecto\esizon1.0\descuentos_modulos.c
+	"desc+dclient.h"
+
+1588163501 c:\users\troya\desktop\proyecto\esizon1.0\desc+dclient.h
+	"clientes.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+

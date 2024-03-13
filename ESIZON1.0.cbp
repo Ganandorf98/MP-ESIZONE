@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ESIZON1.0" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ESIZON1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ESIZON1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Admin.txt" />
+		<Unit filename="Carga_actualizarfich.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Categorias.txt" />
+		<Unit filename="Cliente.txt" />
+		<Unit filename="Desclient.txt" />
+		<Unit filename="Descuentos.txt" />
+		<Unit filename="Descuentos_modulos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Productos.txt" />
+		<Unit filename="Prov.txt" />
+		<Unit filename="admin.h" />
+		<Unit filename="categorias_modulos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="clientes.h" />
+		<Unit filename="desc+dclient.h" />
+		<Unit filename="finalcliente.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="finalfinaladmin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="finalprov.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="prod+categ.h" />
+		<Unit filename="productos_modulos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="prov.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
